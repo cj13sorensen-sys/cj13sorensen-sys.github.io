@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CJ Sorensen's professional portfolio featuring economics, analytics, information systems, and AI projects.">
+  <title>CJ Sorensen | Economics and Information Systems Portfolio</title>
+  <style>
+    :root {
+      --navy: #172554;
+      --blue: #2563eb;
+      --light-blue: #dbeafe;
+      --background: #f8fafc;
+      --surface: #ffffff;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--background);
+      line-height: 1.6;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem max(5vw, 1rem);
+      color: white;
+      background: var(--navy);
+    }
+
+    nav strong {
+      font-size: 1.1rem;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a:hover,
+    nav a:focus {
+      text-decoration: underline;
+    }
+
+    header {
+      padding: 6rem max(8vw, 1.25rem);
+      color: white;
+      background: linear-gradient(135deg, var(--navy), var(--blue));
+    }
+
+    header h1 {
+      margin: 0 0 0.5rem;
+      font-size: clamp(2.5rem, 7vw, 4.5rem);
+      line-height: 1.1;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: 0;
+      font-size: clamp(1.05rem, 2.5vw, 1.4rem);
+    }
+
+    main {
+      width: min(1100px, 92%);
+      margin: auto;
+    }
+
+    section {
+      padding: 4rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: var(--navy);
+      font-size: 2rem;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      padding: 0;
+      list-style: none;
+    }
+
+    .skills li {
+      padding: 0.55rem 0.9rem;
+      color: var(--navy);
+      background: var(--light-blue);
+      border-radius: 999px;
+      font-weight: bold;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.25rem;
+    }
+
+    .card {
+      padding: 1.5rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: var(--blue);
+    }
+
+    .card p {
+      margin-bottom: 0;
+      color: var(--muted);
+    }
+
+    .button {
+      display: inline-block;
+      padding: 0.7rem 1rem;
+      color: white;
+      background: var(--blue);
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button:hover,
+    .button:focus {
+      background: var(--navy);
+    }
+
+    .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    footer {
+      padding: 2rem 1rem;
+      color: white;
+      background: var(--navy);
+      text-align: center;
+    }
+
+    @media (max-width: 700px) {
+      nav {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      header {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+      }
+
+      .project-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav aria-label="Main navigation">
+    <strong>CJ Sorensen</strong>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>CJ Sorensen</h1>
+    <p>Economics Student | AI, Analytics, and Information Systems</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am an economics student interested in applying data, artificial intelligence, and information systems to real business problems. My career interests include economic consulting, business analytics, and technology-enabled decision-making. I am especially interested in how AI can improve research, automate routine work, reveal patterns in complex data, and help organizations make better strategic decisions. Through my coursework and projects, I am developing practical skills in data analysis, business problem-solving, prompt engineering, and digital communication. I enjoy turning raw data into useful information and presenting findings in a way that decision-makers can understand. This portfolio documents my progress throughout IS 3060 and highlights projects that connect economics, analytics, AI, and business strategy.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>Microsoft Excel</li>
+        <li>Data Analytics</li>
+        <li>Economic Analysis</li>
+        <li>Business Analysis</li>
+        <li>AI Prompt Engineering</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>GitHub</li>
+        <li>Professional Communication</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="card">
+          <h3>KPMG Group Project</h3>
+          <p>A semester-long team project applying information systems and business analysis to a professional challenge.</p>
+        </article>
+        <article class="card">
+          <h3>AI Business Analysis</h3>
+          <p>An analysis of a business problem using AI tools to support research, evaluation, and recommendations.</p>
+        </article>
+        <article class="card">
+          <h3>Data Visualization</h3>
+          <p>A visual analytics project that turns raw business or economic data into clear, actionable information.</p>
+        </article>
+        <article class="card">
+          <h3>Process Improvement</h3>
+          <p>An AI-assisted redesign of a business workflow focused on efficiency, accuracy, and stakeholder value.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>Resume coming soon.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-links">
+        <a class="button" href="mailto:cj13sorensen@gmail.com">Email Me</a>
+        <a class="button" href="https://www.linkedin.com/in/cj-sorensen121/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="button" href="https://github.com/cj13sorensen-sys" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 CJ Sorensen</p>
+  </footer>
+</body>
+</html>
